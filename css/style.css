@@ -13,6 +13,12 @@ a {
     color: white;
 }
 
+button {
+    padding: 5px 10px;
+    border-radius: 2em;
+    background-color: white;
+}
+
 /* Customs Proprierties */
 
 
@@ -71,6 +77,8 @@ nav > span {
     font-family: sans-serif;
 }
 
+
+
 .side-nav {
     flex-basis: 25%;
 }
@@ -78,13 +86,20 @@ nav > span {
 .main-nav {
     flex-basis: 50%;
     text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main-nav a {
+    margin-right: 25px;
 }
 
 .login {
     text-align: right;
 }
 
-/* Lowee-head style */
+
+/* Lower-head style */
 
 .lower-head {
     /* min-height: 300px;*/
@@ -96,12 +111,47 @@ nav > span {
 }
 
 .lower-head > div {
-    height: 300px; /* punto di domanda: se metto height in % non lo prende, anche se il padre ha height fissa */
+    min-height: 400px; /* punto di domanda: se metto height in % non lo prende, anche se il padre ha height fissa */
     width: 800px;
     /* background-color: pink; */
     border: var(--border);
     border-radius: 10px;
 }
+
+.lower-head a {
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 2em;
+    margin: 5px 0;
+}
+
+.lower-head h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin: 1em 0;
+}
+
+.lower-head p {
+    font-size: 1.3em;
+}
+
+.lower-head .flex-container {
+    margin-top: 30px;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+.mac-download-btn {
+    color: black;
+    background-color: white;
+}
+
+.open-discord-btn {
+    background-color: black;
+}
+
+
 
 
 
