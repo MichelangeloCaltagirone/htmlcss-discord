@@ -8,13 +8,16 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* devo mettere il link nel head dell'html */
 }
 
+i {
+    margin: 0 0.7em;
+}
 a {
     text-decoration: none;
     color: white;
 }
 
 button {
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 2em;
     background-color: white;
 }
@@ -119,10 +122,11 @@ nav > span {
 }
 
 .lower-head a {
-    padding: 10px 15px;
+    padding: 15px 20px;
     text-align: center;
     border-radius: 2em;
     margin: 5px 0;
+    font-weight: bold;
 }
 
 .lower-head h1 {
@@ -236,7 +240,7 @@ section img {
 }
 
 .last-section a {
-    padding: 10px 15px;
+    padding: 15px 20px;
     text-align: center;
     border-radius: 2em;
     margin: 5px 0;
@@ -273,6 +277,7 @@ footer select {
     background-color: transparent;
     color: white;
     border: none;
+    margin-bottom: 1em;
 }
 
 .right-info h3 {
@@ -284,6 +289,12 @@ footer select {
 .info-box {
     min-height: 600px;
     /* margin-bottom: var(--margin-end); */
+}
+
+.info-box i {
+    color: white;
+    margin-right: 0.7em;
+    font-size: 1.5em;
 }
 
 .left-info {
