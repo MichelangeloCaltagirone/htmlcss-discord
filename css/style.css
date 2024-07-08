@@ -23,7 +23,7 @@ button {
 
 
 :root {
-    --border: 2px dashed black;
+    /* --border: 2px dashed black; */
 }
 
 :root {
@@ -248,20 +248,47 @@ section img {
 /* Style for Footer elements */
 
 footer {
-    background-color: darkblue;
-    padding-top: 15px;
+    background-color: rgb(32, 32, 71);
+    padding-top: 2.5em;
+}
+
+.info-box {
+    border-bottom: 2px solid white;
+}
+
+footer h3 {
+    color: lightskyblue;
+}
+
+.left-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.left-info img {
+    width: 2em;
+}
+
+footer select {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.right-info h3 {
+    font-size: 1.3em;
 }
 
 /* First part of the footer */
 
 .info-box {
     min-height: 600px;
-    margin-bottom: var(--margin-end);
+    /* margin-bottom: var(--margin-end); */
 }
 
 .left-info {
     flex-basis: 25%;
-    background-color: coral;
+    /* background-color: coral; */
     border: var(--border);
     border-radius: 15px 0 0 15px;
 }
@@ -272,14 +299,22 @@ footer {
 
 .right-item {
     flex-basis: 25%;
-    background-color: aqua;
+    /* background-color: aqua; */
     border: var(--border);
     border-color: white;
+}
+
+.right-item .flex-container {
+    height: 100%;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .right-item:last-child {
     border-radius: 0 15px 15px 0;
 }
+
+
 
 /* End of the footer */
 
@@ -287,14 +322,21 @@ footer {
     min-height: 80px;
     justify-content: space-between;
     align-items: center;
-    background-color: lightskyblue;
-    margin-top: var(--margin-end);
+    /* background-color: lightskyblue; */
+    /* margin-top: var(--margin-end); */
 }
 
 .end > span {
-    background-color: pink;
+    /* background-color: pink; */
     padding: 5px 10px;
     border: var(--border);
     font-size: 20px;
     font-weight: 500;
+}
+
+.end a {
+    padding: 5px 10px;
+    border-radius: 2em;
+    background-color: rgb(55, 143, 226);
+    font-size: 1em;
 }
