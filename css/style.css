@@ -163,6 +163,10 @@ section {
     padding: 35px 0;
 }
 
+section img {
+    margin-right: 35px;
+}
+
 /* sections with reversed row */
 .row-reverse {
     flex-direction: row-reverse;
@@ -175,15 +179,21 @@ section {
 
 .bg-content {
     flex-basis: 60%;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     border: var(--border);
 }
 
 .sm-content {
     flex-basis: 40%;
-    background-color: red;
+    /* background-color: red; */
     border: var(--border);
 }
+
+.sm-content h2 {
+    font-size: 3em;
+    margin-bottom: 0.7em;
+}
+
 
 .bg-content, .sm-content {
     padding: var(--inter-padding);
@@ -199,12 +209,40 @@ section {
 
 .last-section > * {
     min-height: 800px;
-    background-color: green;
+    /* background-color: green; */
     border: var(--border);
     padding: var(--inter-padding);
     /* font-family: sans-serif; */
+    text-align: center;
 }
 
+.last-section h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0.7em;
+}
+
+.last-section img {
+    width: 100%;
+    margin-right: 0;
+}
+
+.last-section h3 {
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    /* background-image: url(../img/stars.svg); */
+    /* background-size: contain; */
+}
+
+.last-section a {
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 2em;
+    margin: 5px 0;
+    background-color: rgb(11, 113, 197);
+    color: white;
+}
 
 
 /* Style for Footer elements */
